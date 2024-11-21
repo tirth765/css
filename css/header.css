@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 90%;
+  height: 800px;
+  border: 2px solid black;
+  font-size: 20px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.main2 {
+  display: flex;
+  justify-content: end;
+  justify-content: space-evenly;
+}
+header nav li {
+  padding: 40px;
+  font-size: 20px;
+}
+header nav li a {
+  color: black;
+}

@@ -1,0 +1,128 @@
+body {
+  font-family: sans-serif;
+}
+#product {
+  width: 250px;
+  height: 500px;
+  border: 2px solid black;
+  margin: 0 auto;
+  float: left;
+}
+#product-img {
+  width: 100%;
+  height: 55%;
+}
+#product-data {
+  width: 100%;
+  height: 50%;
+}
+#product-img img {
+  width: 100%;
+  height: 100%;
+}
+#product-data h2 {
+  text-align: center;
+}
+#product-data p {
+  text-align: center;
+}
+.product-card {
+  width: 250px;
+  height: 500px;
+  margin: 0 auto;
+  border: 2px solid black;
+  float: left;
+  margin-left: 90px;
+}
+.product-card img {
+  width: 100%;
+  height: 45%;
+  object-fit: cover;
+}
+.product-card h2 {
+  margin-top: 10px;
+  text-align: center;
+}
+.price {
+  margin: 10px;
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+.product-card p {
+  text-align: center;
+}
+.star {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.star .fa-solid {
+  color: goldenrod;
+}
+.star .gra {
+  color: gray;
+}
+#addtocart {
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  display: inline-block;
+  background-color: rgb(26, 207, 147);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#shop {
+  width: 250px;
+  height: 500px;
+  border: 2px solid black;
+  float: left;
+  margin-left: 90px;
+}
+#shop img {
+  width: 100%;
+  height: 40%;
+}
+#shop-data {
+  text-align: center;
+}
+
+#shop-symbol {
+  text-align: center;
+  margin-top: 20px;
+}
+#shop-symbol a {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 2px;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: rgb(235, 243, 23);
+}
+.aqua {
+  background-color: aqua;
+}
+#add{
+  padding-top: 40px;
+  margin: 0 auto;
+}
+#add samp {
+  font-size: 26px;
+  padding: 9px;
+}
+#add a {
+  font-size: 14px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-decoration: solid;
+  padding: 10px;
+}
+

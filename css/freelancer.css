@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#possibilities {
+  margin: 100px 0 150px 0;
+}
+.container {
+  width: 68%;
+  margin: 0 auto;
+}
+.main-title {
+  font-size: 41px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.sub-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+.possibilities-details {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.possibilities-data {
+  width: 32%;
+}
+.possibilities-data img {
+  width: 80px;
+}
+.possibilities-data h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 17px;
+  margin-bottom: 10px;
+}
+.possibilities-data p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+hr {
+  border: none;
+  width: 94%;
+  height: 1px;
+  background-color: gray;
+  margin: 0 auto;
+}
+#main-work {
+  margin: 150px 0;
+}
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+.phone {
+  width: 47%;
+}
+.wo-data {
+  width: 47%;
+}
+.phone img {
+  width: 100%;
+}
+
+.work-details {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 22px;
+}
+.work-data {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+}
+.post {
+  background-color: #e60278;
+  padding: 13px 33px;
+  margin-top: 55px;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+}
+.simply {
+  margin-bottom: 25px;
+}
+#contact {
+  margin: 150px 0;
+}
+.contact-data {
+  width: 50%;
+}
+.contact-img {
+  width: 45%;
+}
+.contact-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#contact .container {
+  display: flex;
+}
+.app-chat {
+  display: flex;
+  margin-top: 45px;
+  column-gap: 26px;
+}
+.chat img {
+  width: 72px;
+}
+.chat img {
+  width: 72px;
+}
+.app {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.app-data {
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 28px;
+}
+#secure {
+  margin: 150px 0;
+}
+.secure-img {
+  width: 45%;
+}
+
+.secure-data {
+  width: 50%;
+}
+.secure-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.support img {
+  width: 72px;
+}
+#secure .container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-secure {
+  display: flex;
+  margin-top: 40px;
+  column-gap: 37px;
+}
+.pay {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.pay-data {
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 28px;
+  margin-top: 30px;
+}
+.confidence img {
+  width: 72px;
+  margin-bottom: 20px;
+}
+
+#Post-a-project {
+  background-color: #232a35;
+  color: white;
+  height: 300px;
+  padding: 50px;
+}
+.post {
+  background-color: #e60278;
+  padding: 15px 25px;
+}
+
+#convinced {
+  margin-top: 100px;
+}
+.product {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product-data img {
+  width: 100%;
+}
+
+.new {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.butt {
+  text-align: center;
+}
+
+#Additional {
+  background-color: #232a35;
+  color: white;
+  height: 350px;
+  padding-top: 50px;
+  margin-top: 100px;
+}
+.links {
+  color: white;
+  margin-top: 30px;
+  font-size: 24px;
+}
+.Help {
+  display: flex;
+}
+.below {
+  width: 50%;
+}
+.below a {
+  display: block;
+}
+#freelancer {
+  background-color: #12151b;
+  height: 690px;
+  padding: 40px 0;
+}
+li a {
+  display: inline-block;
+  text-decoration: none;
+}
+li p {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+.main-freelan {
+  display: flex;
+  margin-bottom: 80px;
+}
+.Accessibility {
+  width: 250px;
+}
+.Accessibility ul li a {
+  color: white;
+}
+.free-lan ul li a {
+  color: white;
+}
+.pic img {
+  width: 140px;
+  margin-bottom: 10px;
+}
+.Accessibility li {
+  margin-bottom: 25px;
+}
+.free-title {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.free-lan ul li {
+  margin-bottom: 7px;
+}
+.free-lan {
+  width: 250px;
+}
+.end {
+  width: 100%;
+  color: white;
+  display: flex;
+  gap: 300px;
+}
+.hr-line {
+  width: 100%;
+  background-color: #232a35;
+}
+.logos ul {
+  display: flex;
+}
+
+.app {
+  margin-top: 20px;
+}
+.logos ul li {
+  margin-right: 20px;
+}
+
+.Users {
+  margin-top: 30px;
+}
+.acn {
+  font-size: 11px;
+}
+
+.posting {
+  background-color: #e60278;
+  width: 150px;
+  height: 40px;
+  color: white;
+  padding: 10px 23px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.caeq {
+  background-color: #12151b;
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+}
+.hire {
+  display: flex;
+  gap: 30px;
+}
+.hire a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+.job img {
+  width: 140px;
+  margin-top: -13px;
+}
+.works ul li {
+  color: gray;
+}
+.job {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.job ul li a {
+  margin-right: 35px;
+}
+ul li {
+  list-style-type: none;
+}
+.works {
+  margin-top: 20px;
+  display: flex;
+}
+.new-login {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.size {
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: -10px;
+  padding: 9px 16px;
+  border-radius: 3px;
+}
+#find-jobs {
+  width: 100%;
+  height: 900px;
+}
+.imaginable {
+  height: 800px;
+  margin-top: 16px;
+  background-image: url(../img/client-desktop.webp);
+  background-size: cover;
+}
+.nf {
+  color: white;
+}
+.field {
+  width: 500px;
+  padding-top: 250px;
+}
+#Testimonials {
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+.new-login {
+  display: flex;
+}
+.Federico {
+  width: 30%;
+  margin-top: 60px;
+}
+.Federico img {
+  width: 100%;
+}
+.backbone {
+  font-style: italic;
+  margin-top: 35px;
+}
+.Copywriter {
+  display: flex;
+  justify-content: space-between;
+}
+.Elizabeth {
+  font-weight: 700;
+  margin-top: 90px;
+}
+
+.point:hover img {
+  transform: scale(1.2);
+}
+.point {
+  cursor: pointer;  
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.point img {
+  transition: all 0.5s;
+}
+.point:hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.436);
+}
+.point button{
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  padding: 13px 26px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.point:hover button{
+  opacity: 1;
+}
+h2 {
+  margin-top: 10px;
+}
+.point button:hover{
+  background-color:rgba(255, 255, 255, 0.4)
+} 

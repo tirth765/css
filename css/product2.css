@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: #FDCD9D;
+    font-family: sans-serif;
+}
+.card{
+    width: 250px;
+    margin: 150px auto;
+    background-color: white;
+    position: relative;
+    text-align: center;
+   
+}
+.img img {
+    width: 200px;
+    position: absolute;
+    left: 13%;
+    top: -90px;
+}
+.card h3 {
+   padding: 100px 20px 20px;
+}
+.card p{
+    color: gray ;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.rup{
+    font-size: 27px;
+    font-weight: 700;
+   
+}
+.but{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    border-radius: 15px ;
+    margin-bottom: 25px;
+    padding: 5px 9PX;
+    margin-top: 25PX;
+    display: inline-block;
+}

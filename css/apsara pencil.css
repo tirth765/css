@@ -1,0 +1,47 @@
+@font-face {
+    font-family:jus ;
+    src: url(../font/Merriweather-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic
+}
+@font-face {
+    font-family: upr;
+    src: url(../font/Merriweather-BoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: thr;
+    src: url(../font/Merriweather-Black.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    color: red;
+}
+p {
+    color: rgb(255, 0, 149);
+}
+.none {
+    text-decoration: none;
+}
+
+#jus {
+    font-weight: 900;
+    font-style: italic
+  
+}
+#upr{
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+#thr {
+    font-weight: 400;
+    font-style: normal;
+}
+#spacing{
+    text-indent: 10px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}

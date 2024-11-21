@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    
+}
+.main {
+  width: 90%;
+  height: 600px;
+  border: 2px solid black;
+  margin: 50px auto;
+  display: flex;
+  column-gap: 10px;
+
+ 
+}
+.box1 {
+  width: 200px;
+  height: 150px;
+  background-color: brown;
+}
+.box2 {
+  width: 200px;
+  height: 150px;
+  background-color: aquamarine;
+}
+.wap {
+    flex-wrap: wrap;    
+}
+.js-co{
+    justify-content: center;
+}
+.js-end{
+    justify-content: end;
+}
+.js-ar{
+    justify-content: space-around;
+}
+.js-be{
+    justify-content: space-between;
+}
+
+.js-ev{
+    justify-content: space-evenly;
+}
+.al-ce{
+    align-items: center;
+}
+.al-fe{
+    align-items: flex-end;
+}
+.al-be{
+    align-content: space-between;
+    flex-wrap: wrap;   
+}
+.al-ar{
+    align-content: space-around;
+    flex-wrap: wrap;   
+}
+.al-ev{
+    align-content: space-evenly;
+    flex-wrap: wrap;   
+}
+.fd-col{
+    flex-direction: column;
+}
+.a-cen{
+    align-self: center;
+}
+.a-end {
+    align-self: flex-end;
+}
+.fg{
+    flex-grow: 1;
+}
+
+.fg2{
+    flex-grow: 2;
+}
+.fl-sh{
+    flex-shrink: 0;
+}
+.or1{
+    order: 2;
+}
+.or2{
+    order: -2;
+}
+.or3{
+    order: 1;
+}

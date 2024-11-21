@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #6d5286;
+}
+.card {
+  width: 900px;
+  height: 500px;
+  margin: 50px auto;
+}
+.img {
+  position: relative;
+}
+.img img {
+  width: 100%;
+}
+.mac {
+  position: absolute;
+  left: -20px;
+  top: 30px;
+  background-color: #6c639f;
+  padding: 7px 35px;
+  font-size: 12px;
+  color: white;
+}
+.download {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 35px;
+  background-color: #56a7b2;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 10px 10px 10px 13px;
+}
+.data {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin-top: -10px;
+}
+.DETAILS {
+  background-color: #8856a8;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+.DETAILS i {
+  font-size: 70px;
+  color: white;
+  margin-top: 50px;
+}
+.DETAILS p {
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+}
+.info {
+  width: 50%;
+  height: 100%;
+
+  float: left;
+  box-sizing: border-box;
+  padding: 50px 30px;
+}
+.ing {
+  font-size: 20px;
+}
+.name {
+  text-align: end;
+  color: gray;
+}
+.name2 {
+  margin-top: 20px;
+}
+.Consumers {
+  width: 50px;
+  height: 50px;
+}
+.Consumers img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.price {
+  width: 25%;
+  height: 200px;
+
+  border-left: 2px solid gray;
+  float: left;
+  text-align: center;
+}
+.mony {
+  font-size: 35px;
+  margin-top: 30px;
+}
+.rate {
+  font-size: 15px;
+  color: gray;
+  margin-top: 80px;
+}

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0164af;
+  font-family: sans-serif;
+}
+.review-card {
+  width: 1500px;
+  height: 700px;
+  margin: 90px auto;
+  background-color: #118def;
+  padding: 30px 150px;
+}
+.back {
+  height: 500px;
+  width: 280px;
+  padding: 80px;
+  float: left;
+}
+.review-img {
+  height: 320px;
+  width: 170px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #e1c343;
+}
+.review-img img {
+  position: absolute;
+  top: 21px;
+  left: -41px;
+}
+.review-data {
+  width: 800px;
+  height: 500px;
+  float: left;
+}
+.line {
+  width: 300px;
+  height: 10px;
+  margin-top: 130px;
+  background-color: white;
+}
+.Client-Reviews {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 30px;
+}
+.mark1 {
+  font-size: 100px;
+  width: 120px;
+  margin: 10px;
+  color: #0c6ebf;
+  float: left;
+}
+
+.lorem{
+   
+    width: 600px;
+    text-align: center;
+    float: right;
+    
+    
+}
+.mark2 {
+  font-size: 100px;
+  width: 120px;
+ float: right;
+ margin: 10px;
+  color: #0c6ebf;
+  width: 120px;
+}
+.dot {
+  text-align: center;
+  width: 600px;
+}
+.dot i {
+  font-size: 20px;
+  color: white;
+}
+.big-data {
+  width: 700px;
+  height: 300px;
+
+}

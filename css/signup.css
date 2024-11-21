@@ -1,0 +1,90 @@
+
+body {
+  font-family: sans-serif;
+}
+#sign {
+  width: 180px;
+  height: 340px;
+  border: 2px solid black;
+  margin: 40px auto;
+  padding: 18px;
+  border-radius: 15px;
+}
+#email {
+  margin-bottom: 15px;
+}
+#login a {
+  text-decoration: none;
+}
+#login {
+  text-align: center;
+  border-radius: 5px;
+  background-color: palevioletred;
+  height: 20px;
+  padding: 1px;
+  font-size: smaller;
+  padding-top: 3px;
+}
+#Remember {
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+#forgot {
+  text-decoration: none;
+  text-align: right;
+  font-size: 10px;
+  padding: 0 6px 0 93px;
+  color: gray;
+}
+.wi {
+  float: right;
+  margin-top: 27px;
+}
+#or {
+  float: right;
+  border: 0.8px solid black;
+  border-radius: 4px;
+  font-size: smaller;
+  margin-top: 20px;
+  font-style: normal;
+}
+.google {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(255, 0, 0);
+  float: left;
+  margin: 10px 10px 10px 34px;
+  border-radius: 25px;
+  text-align: center;
+  color: red;
+  padding-top: 2px;
+}
+.facebook {
+  width: 20px;
+  height: 20px;
+  border: 2px solid blue;
+  float: left;
+  margin: 10px;
+  border-radius: 25px;
+  text-align: center;
+  color: blue;
+  padding-top: 2px;
+}
+.in {
+  width: 20px;
+  height: 20px;
+  border: 2px solid blue;
+  float: left;
+  margin: 10px;
+  border-radius: 25px;
+  text-align: center;
+  color: blue;
+  padding-top: 3px;
+}
+#needaccount {
+  text-align: center;
+  font-size: 11px;
+}
+#or{
+    font-size: 12px;
+} 

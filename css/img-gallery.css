@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#gallery{
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid black;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+#gallery img{
+    width: 30%;
+    height: 400px;
+}
+.im1{
+    flex-grow: 3;
+}
+.im2{
+    flex-grow: 2;
+}
+.im3{
+    flex-grow:2 ;
+}
+.im4{
+    flex-grow: 2;
+}

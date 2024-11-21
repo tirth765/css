@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.width{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(255, 225, 0);
+}
+.maxwidth{
+    max-width: 500px;
+    height: 250px;
+    background-color: rgb(255, 225, 0);
+}
+.minwidth{
+    min-width: 500px;
+    height: 250px;
+    background-color: rgb(255, 225, 0);
+}

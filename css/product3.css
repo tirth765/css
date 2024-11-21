@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #01e37f;
+  font-family: sans-serif;
+}
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin: 30px auto;
+  position: relative;
+  border-radius: 8px;
+}
+.card img {
+  width: 200px;
+}
+.box {
+  position: absolute;
+  left: -20px;
+  top: 40px;
+  background-color: #bcec4c;
+  height: 300px;
+  border-radius: 8px;
+}
+.img img {
+  margin-top: 30px;
+
+}
+.app img {
+  width: 40px;
+  display: inline-block;
+  border: 0.5px solid gray;
+}
+.pic {
+  width: 100%;
+  background-color: white;
+
+  border-radius: 0 0 8px 8px;
+  text-align: center;
+  margin: 52px 0px;
+}
+.data {
+  float: right;
+  padding: 51px 36px;
+}
+#name {
+  font-size: larger;
+}
+.cod {
+  font-size: 9px;
+  color: rgb(166, 166, 166);
+  margin-bottom: 18px;
+}
+#price {
+  font-size: 39px;
+  margin-top: 10px;
+  color: red;
+}
+#rupes {
+  font-size: 11px;
+  margin-right: 10px;
+  color: red;
+}
+.cha {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.col img {
+  width: 30px;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+}
+.hight {
+  margin-top: 20px;
+}
+.type {
+  font-size: 11px;
+  margin-bottom: 30px;
+}
+.add-to-cart {
+  background-color: red;
+  color: white;
+  padding: 13px 30px 13px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 8px;
+}
+.share {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: white;
+}
+.like {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+}

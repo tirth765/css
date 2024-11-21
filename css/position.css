@@ -1,0 +1,41 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.Static-box{
+    position: static;
+    right: 80px;
+    top: 40px;
+}
+.relative-box{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.Absolute-box{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+.rel{
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+}
+.reab{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.Fixed-box{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+.sticky-box{
+    position: sticky;
+    top: 20px;
+
+}

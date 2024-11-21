@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+@font-face {
+    font-family: Downloadg;
+    src: url(../font/Roboto-Italic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Downloadg;
+    src: url(../font/Roboto-Bold.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Downloadg;
+    src: url(../font/Roboto-Thin.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family:Downloadg ;
+    src: url(../font/KaiseiHarunoUmi-Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+#ser {
+    font-family: serif;
+}
+
+#sans {
+    font-family: sans-serif;
+}
+
+#mono {
+    font-family: monospace;
+}
+
+#cur {
+    font-family: cursive;
+}
+
+#fan {
+    font-family: fantasy;
+}
+
+.linkg {
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+
+#importg {
+    font-family: "Akaya Telivigala", system-ui;
+}
+
+#Downloadg {
+    font-weight: 500;
+    font-style: normal;
+}

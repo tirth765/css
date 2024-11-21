@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(202, 201, 201);
+  font-family: sans-serif;
+}
+.shoes {
+  width: 360px;
+  height: 400px;
+  background-color: #f68f2a;
+  margin: 40px auto;
+  position: relative;
+  float: left;
+
+
+}
+.shoes img {
+  position: absolute;
+  left: -70px;
+  top: -10px;
+
+
+
+}
+.data {
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  float: left;
+  text-align: left;
+  padding: 35px;
+
+}
+.full-name {
+  font-size: 35px;
+  font-weight: 700;
+}
+.new {
+  background-color: #fb774f;
+  padding: 4px 5px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.data p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.info {
+  margin-top: 15px;
+  font-size: 23px;
+  font-weight: 600;
+}
+.men {
+  font-weight: 550;
+  font-size: 20px;
+}
+.add-to-cart {
+  background-color: #fa5622;
+  display: inline-block;
+  margin-top: 30px;
+}
+.add-to-cart a {
+  font-size: 15px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 25px;
+  color: white;
+}
+.add-to-cart i {
+  margin-right: 7px;
+}
+.price {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 80px;
+}
+.main {
+  width: 900px;
+  margin: 80px auto;
+}

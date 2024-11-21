@@ -1,0 +1,41 @@
+body{
+    font-size: 35px;
+}
+a:link{
+    color: aqua;
+}
+a:hover{
+    color: blue ;
+}
+a:visited{
+    color: green;
+
+}
+a:active{
+    color: yellow;
+}
+ul li:first-child a{
+    color: blueviolet;
+}
+ul li:nth-child(2) a{
+    color: chocolate;
+}
+.demo p:first-child i{
+    color: chartreuse;
+}
+.demo p i:first-child{
+    color: darkcyan;
+}
+.logo h2::nth-child(2)
+{
+    color: pink;
+}
+.logo h3::first-line{
+    color: pink;
+}
+.logo h2::after{
+    content: "*";
+}
+.logo h2::before{
+    content: "*";
+}

@@ -1,0 +1,48 @@
+#col-name {
+    color: red;
+}
+
+#col-hash {
+
+    color: #4dff01;
+ 
+}
+#rgba {
+
+    color: rgb(0, 247, 255); 
+}
+
+#hsla{
+    color: hsl(291, 95%, 45%);
+}
+#justifY{
+    text-align: justify;
+}
+#tex-upr {
+    text-transform: uppercase;
+}
+#tex-low{
+    text-transform: lowercase;
+}
+#tex-cap{
+    text-transform: capitalize;
+}
+#tex-und{
+    text-decoration: underline;
+}
+#tex-und{
+    text-decoration: overline;
+}
+#tex-thr{
+    text-decoration: line-through;
+}
+a {
+    text-decoration: none;
+}
+
+#spacing{
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 20px;
+    word-spacing: 20px;
+}
